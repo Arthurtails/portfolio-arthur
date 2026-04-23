@@ -132,7 +132,7 @@ h2 em   { color: var(--gold); font-style: italic; }
 }
 #hero::after {
   content: 'SISR';
-  position: absolute; right: -8rem; top: 50%;
+  position: absolute; right: -12rem; top: 50%;
   transform: translateY(-50%) rotate(90deg);
   font-family: 'Share Tech Mono', monospace;
   font-size: 10rem; letter-spacing: .3em;
