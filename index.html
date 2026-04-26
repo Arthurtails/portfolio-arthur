@@ -586,7 +586,7 @@
 
  <!-- ══ VEILLE TECHNOLOGIQUE ══ -->
 <div class="section fade-in" id="veille">
-  <div class="label">// 06 — veille technologique</div>
+  <div class="label">veille technologique</div>
   <h2>Ma <span>veille</span> techno</h2>
 
   <!-- Définition -->
@@ -744,47 +744,69 @@
 
 
   <!-- ══ CONTACT ══ -->
-  <div class="section fade-in" id="contact">
-    <div class="label contact-label">contact</div>
-    <h2 style="text-align:center">Travaillons <span>ensemble.</span></h2>
-    <div class="contact-dispo">Disponible pour une alternance 2026–2027</div>
+<div class="section fade-in" id="contact">
+  <div class="label contact-label">contact</div>
+  <h2 style="text-align:center">Travaillons <span>ensemble.</span></h2>
+  <div class="contact-dispo">Disponible pour une alternance 2026–2027</div>
 
-    <div class="contact-layout">
+  <div class="contact-layout">
 
-      <div class="contact-info">
-        <div class="contact-info-title">Mail pro :</div>
-        <a href="mailto:paitredaletarthur@gmail.com" class="contact-mail">paitredaletarthur@gmail.com</a>
-        <div class="socials">
-          <a href="https://github.com/Arthurtails" target="_blank" class="social">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/arthur-paitre-dalet-668b5a328/" target="_blank" class="btn btn-red">LinkedIn →</a>
-          <a href="cv/arthur-paitre-dalet.pdf" download class="btn btn-outline">CV ↓</a>
+    <!-- Infos -->
+    <div class="contact-info">
+      <div class="contact-info-title">Mail pro :</div>
+      <a href="mailto:paitredaletarthur@gmail.com" class="contact-mail">
+        paitredaletarthur@gmail.com
+      </a>
+      <div class="socials">
+        <a href="https://github.com/Arthurtails" target="_blank" class="social">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/arthur-paitre-dalet-668b5a328/" target="_blank" class="btn btn-red">LinkedIn →</a>
+        <a href="cv/arthur-paitre-dalet.pdf" download class="btn btn-outline">CV ↓</a>
+      </div>
+    </div>
+
+    <!-- Formulaire Formspree -->
+    <form
+      class="contact-form"
+      id="contactForm"
+      action="https://formspree.io/f/xwvajkpa"
+      method="POST"
+    >
+      <div class="form-row">
+        <div class="form-group">
+          <label for="nom" class="form-label">Nom</label>
+          <input type="text" id="nom" name="nom"
+            class="form-input" placeholder="Votre nom" required/>
+        </div>
+        <div class="form-group">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" id="email" name="email"
+            class="form-input" placeholder="votre@email.com" required/>
         </div>
       </div>
+      <div class="form-group">
+        <label for="sujet" class="form-label">Sujet</label>
+        <input type="text" id="sujet" name="sujet"
+          class="form-input" placeholder="Objet de votre message" required/>
+      </div>
+      <div class="form-group">
+        <label for="message" class="form-label">Message</label>
+        <textarea id="message" name="message"
+          class="form-input form-textarea"
+          placeholder="Votre message..." required></textarea>
+      </div>
 
-      <form class="contact-form" id="contactForm">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="nom" class="form-label">Nom</label>
-            <input type="text" id="nom" name="nom" class="form-input" placeholder="Votre nom" required/>
-          </div>
-          <div class="form-group">
-            <label for="email" class="form-label">Email</label>
-            <input type="email" id="email" name="email" class="form-input" placeholder="votre@email.com" required/>
-          </div>
-        </div>
-        <div class="form-group">
-          <label for="sujet" class="form-label">Sujet</label>
-          <input type="text" id="sujet" name="sujet" class="form-input" placeholder="Objet de votre message" required/>
-        </div>
-        <div class="form-group">
-          <label for="message" class="form-label">Message</label>
-          <textarea id="message" name="message" class="form-input form-textarea" placeholder="Votre message..." required></textarea>
-        </div>
-        <button type="submit" class="btn btn-red form-submit">Envoyer le message →</button>
-      </form>
+      <!-- Message de confirmation (caché par défaut) -->
+      <div class="form-success" id="formSuccess">
+      </div>
 
-    </div>
+      <button type="submit" class="btn btn-red form-submit">
+        Envoyer le message →
+      </button>
+      <p class="form-note">Envoi sécurisé via Formspree</p>
+    </form>
+
   </div>
+</div>
 
   <footer>
     <span class="footer-name">Arthur Paitre-Dalet</span>
