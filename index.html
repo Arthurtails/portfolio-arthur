@@ -11,6 +11,8 @@
 </head>
 <body>
 
+<div id="progress-bar"></div>
+
   <!-- NAV -->
   <nav>
     <span class="nav-logo">Arthur Paitre-Dalet · SISR</span>
@@ -371,7 +373,7 @@
       <div class="cert-card cert-empty">
         <div class="cert-icon">◈</div>
         <div class="cert-body">
-          <div class="cert-name">CNIL RGPD</div>
+          <div class="cert-name">CNIL-RGPD</div>
           <div class="cert-org">Business School by CSND · 2025-2026</div>
         </div>
         <div class="cert-status pending">Terminée</div>
@@ -379,7 +381,7 @@
       <div class="cert-card cert-empty">
         <div class="cert-icon">◈</div>
         <div class="cert-body">
-          <div class="cert-name">ANSSI</div>
+          <div class="cert-name">ANSSI - SecNumacadémie</div>
           <div class="cert-org">Business School by CSND · 2025-2026</div>
         </div>
         <div class="cert-status pending">Terminée</div>
@@ -387,7 +389,7 @@
             <div class="cert-card cert-empty">
         <div class="cert-icon">◈</div>
         <div class="cert-body">
-          <div class="cert-name">MOOC sur l'éloquence</div>
+          <div class="cert-name">FUNMOOC - MOOC sur l'éloquence</div>
           <div class="cert-org">Business School by CSND · 2025-2026</div>
         </div>
         <div class="cert-status pending">Terminée</div>
@@ -420,45 +422,184 @@
 
   <div class="divider"><div class="divider-line"></div><div class="divider-char">六</div><div class="divider-line"></div></div>
 
-  <!-- ══ VEILLE TECHNOLOGIQUE ══ -->
-  <div class="section fade-in" id="veille">
-    <div class="label">veille technologique</div>
-    <h2>Ma <span>veille</span> techno</h2>
-    <p class="veille-intro">
-      <div class="veille-theme-title">La veille technologique c'est quoi ?</div>
-      La veille technologique désigne l'ensemble des moyens déployés pour collecter, soumettre à analyse et exploiter les nouveautés disponibles sur le plan technique.
-    </p>
+ <!-- ══ VEILLE TECHNOLOGIQUE ══ -->
+<div class="section fade-in" id="veille">
+  <div class="label">// 06 — veille technologique</div>
+  <h2>Ma <span>veille</span> techno</h2>
 
-    <!-- Thèmes suivis -->
-    <div class="veille-themes">
-      <div class="veille-theme"> 
-        <div class="veille-theme-title">Objectif de la veille technologique</div>
-        <div class="veille-theme-desc">Anticiper les évolutions technologiques, Identifier les nouvelles menaces de sécurité, Découvrir de nouveaux outils et frameworks, Améliorer continuellement ses compétences, Se positionner sur le marché de l'emploi</div>
-      </div>
+  <!-- Définition -->
+  <div class="veille-block">
+    <div class="veille-block-label">Définition</div>
+    <div class="bts-definition">
+      <p>
+        <strong>La veille technologique</strong> est un processus de surveillance continue de l'environnement technologique. Elle consiste à collecter, analyser et diffuser des informations sur les évolutions techniques, les nouvelles pratiques et les menaces émergentes dans son domaine d'activité.
+      </p>
+      <p style="margin-top:.8rem">
+        Dans le domaine de l'informatique et des réseaux, elle est indispensable pour anticiper les changements, se tenir à jour sur les vulnérabilités et maintenir un niveau de compétence en adéquation avec les besoins du marché.
+      </p>
     </div>
+  </div>
 
-    <!-- Sources utilisées -->
-    <div class="veille-sources-title">Sources utilisées</div>
-    <div class="veille-sources">
-      <div class="veille-source">
-        <div class="veille-source-name">CERT-FR</div>
-        <div class="veille-source-desc">Alertes et avis de sécurité officiels — Agence nationale de la sécurité des systèmes d'information (ANSSI)</div>
-        <a href="https://www.cert.ssi.gouv.fr" target="_blank" class="veille-source-link">cert.ssi.gouv.fr ↗</a>
-      </div>
-    </div>
-
-    <div class="synthese-download">
-      <div class="synthese-download-info">
-        <div class="synthese-download-icon">⊞</div>
+  <!-- Objectifs -->
+  <div class="veille-block">
+    <div class="veille-block-label">Objectifs</div>
+    <div class="veille-objectifs">
+      <div class="veille-obj">
+        <div class="veille-obj-num">01</div>
         <div>
-          <div class="synthese-download-name">Veille Technologique</div>
-          <div class="synthese-download-desc">Veille Technologique DDOS · BTS SIO SISR · 2e année</div>
+          <div class="veille-obj-title">Anticiper les menaces</div>
+          <div class="veille-obj-desc">Identifier les nouvelles vulnérabilités (CVE), techniques d'attaque et failles zero-day avant qu'elles n'impactent les infrastructures administrées.</div>
         </div>
       </div>
-      <a href="Veille technologique Arthur Paitre-Dalet.pdf" download class="btn btn-outline">Télécharger</a>
+      <div class="veille-obj">
+        <div class="veille-obj-num">02</div>
+        <div>
+          <div class="veille-obj-title">Suivre les évolutions technologiques</div>
+          <div class="veille-obj-desc">Rester informé des nouvelles versions de systèmes, outils et protocoles (Linux, Windows Server, VMware, standards réseau) pour maintenir des compétences à jour.</div>
+        </div>
+      </div>
+      <div class="veille-obj">
+        <div class="veille-obj-num">03</div>
+        <div>
+          <div class="veille-obj-title">Améliorer les pratiques</div>
+          <div class="veille-obj-desc">S'inspirer des retours d'expérience de la communauté sysadmin pour adopter de meilleures pratiques d'administration, de supervision et de sécurisation des systèmes.</div>
+        </div>
+      </div>
+      <div class="veille-obj">
+        <div class="veille-obj-num">04</div>
+        <div>
+          <div class="veille-obj-title">Développer ses compétences</div>
+          <div class="veille-obj-desc">Découvrir de nouveaux outils, technologies et certifications pertinentes pour évoluer professionnellement dans le domaine de l'infrastructure et de la cybersécurité.</div>
+        </div>
+      </div>
     </div>
   </div>
+
+  <!-- Comment faire une veille -->
+  <div class="veille-block">
+    <div class="veille-block-label">Comment faire une veille efficace ?</div>
+    <div class="veille-methode">
+      <div class="veille-etape">
+        <div class="veille-etape-icon">①</div>
+        <div>
+          <div class="veille-etape-title">Définir ses sources</div>
+          <div class="veille-etape-desc">Sélectionner des sources fiables et variées : sites officiels, blogs spécialisés, flux RSS, newsletters, communautés. Privilégier la qualité à la quantité.</div>
+        </div>
+      </div>
+      <div class="veille-etape">
+        <div class="veille-etape-icon">②</div>
+        <div>
+          <div class="veille-etape-title">Collecter régulièrement</div>
+          <div class="veille-etape-desc">Consacrer un temps fixe à la lecture (ex : 15 min par jour). Utiliser des agrégateurs et outils de curation pour centraliser les informations sans se disperser.</div>
+        </div>
+      </div>
+      <div class="veille-etape">
+        <div class="veille-etape-icon">③</div>
+        <div>
+          <div class="veille-etape-title">Analyser et filtrer</div>
+          <div class="veille-etape-desc">Trier les informations selon leur pertinence, fiabilité et applicabilité. Croiser plusieurs sources avant de valider une information technique.</div>
+        </div>
+      </div>
+      <div class="veille-etape">
+        <div class="veille-etape-icon">④</div>
+        <div>
+          <div class="veille-etape-title">Synthétiser et partager</div>
+          <div class="veille-etape-desc">Prendre des notes, résumer les points clés et partager les découvertes (portfolio, équipe, etc.). La veille n'a de valeur que si elle est exploitée.</div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <!-- Outils utilisés -->
+  <div class="veille-block">
+    <div class="veille-block-label">Outils utilisés</div>
+    <div class="veille-outils">
+
+      <div class="veille-outil">
+        <div class="veille-outil-header">
+          <div class="veille-outil-name">NotebookLM</div>
+          <span class="veille-outil-tag">IA · Synthèse</span>
+        </div>
+        <div class="veille-outil-desc">Outil Google basé sur l'IA permettant d'importer des documents (articles, PDFs, notes) et de les interroger en langage naturel. Utilisé pour synthétiser rapidement des rapports de sécurité, documentation technique et articles de fond.</div>
+        <a href="https://notebooklm.google.com" target="_blank" class="veille-source-link">notebooklm.google.com ↗</a>
+      </div>
+
+      <div class="veille-outil">
+        <div class="veille-outil-header">
+          <div class="veille-outil-name">Feedly</div>
+          <span class="veille-outil-tag">Agrégateur · RSS</span>
+        </div>
+        <div class="veille-outil-desc">Agrégateur de flux RSS permettant de centraliser toutes ses sources en un seul endroit. Permet de suivre des dizaines de blogs et sites spécialisés sans visiter chaque site individuellement.</div>
+        <a href="https://feedly.com" target="_blank" class="veille-source-link">feedly.com ↗</a>
+      </div>
+
+      <div class="veille-outil">
+        <div class="veille-outil-header">
+          <div class="veille-outil-name">CERT-FR</div>
+          <span class="veille-outil-tag">Sécurité · Officiel</span>
+        </div>
+        <div class="veille-outil-desc">Centre gouvernemental de veille, d'alerte et de réponse aux attaques informatiques (ANSSI). Source de référence pour les alertes de sécurité, avis et bulletins officiels affectant les systèmes et logiciels.</div>
+        <a href="https://www.cert.ssi.gouv.fr" target="_blank" class="veille-source-link">cert.ssi.gouv.fr ↗</a>
+      </div>
+
+      <div class="veille-outil">
+        <div class="veille-outil-header">
+          <div class="veille-outil-name">Reddit r/sysadmin</div>
+          <span class="veille-outil-tag">Communauté</span>
+        </div>
+        <div class="veille-outil-desc">Communauté internationale d'administrateurs systèmes. Partage de retours d'expérience, incidents en cours, outils découverts et bonnes pratiques du terrain. Très réactif sur les incidents majeurs.</div>
+        <a href="https://www.reddit.com/r/sysadmin" target="_blank" class="veille-source-link">reddit.com/r/sysadmin ↗</a>
+      </div>
+
+      <div class="veille-outil">
+        <div class="veille-outil-header">
+          <div class="veille-outil-name">IT-Connect</div>
+          <span class="veille-outil-tag">Blog · FR</span>
+        </div>
+        <div class="veille-outil-desc">Blog francophone de référence sur Windows Server, Active Directory, PowerShell, réseaux et cybersécurité. Tutoriels détaillés et articles techniques adaptés aux profils SISR.</div>
+        <a href="https://www.it-connect.fr" target="_blank" class="veille-source-link">it-connect.fr ↗</a>
+      </div>
+
+      <div class="veille-outil">
+        <div class="veille-outil-header">
+          <div class="veille-outil-name">Korben</div>
+          <span class="veille-outil-tag">Blog · FR</span>
+        </div>
+        <div class="veille-outil-desc">Blog tech francophone couvrant la sécurité, les outils open source, Linux et les actualités informatiques. Ton accessible et découvertes régulières d'outils utiles pour l'administration système.</div>
+        <a href="https://korben.info" target="_blank" class="veille-source-link">korben.info ↗</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Thèmes suivis -->
+  <div class="veille-block">
+    <div class="veille-block-label">Thèmes suivis</div>
+    <div class="veille-themes">
+      <div class="veille-theme">
+        <div class="veille-theme-icon">🛡</div>
+        <div class="veille-theme-title">Cybersécurité</div>
+        <div class="veille-theme-desc">Suivi des CVE critiques, nouvelles techniques d'attaque (MITRE ATT&CK), durcissement système et réseau.</div>
+      </div>
+      <div class="veille-theme">
+        <div class="veille-theme-icon">☁</div>
+        <div class="veille-theme-title">Cloud &amp; Virtualisation</div>
+        <div class="veille-theme-desc">Évolutions de VMware, montée en puissance de Proxmox, tendances cloud hybride et conteneurisation.</div>
+      </div>
+      <div class="veille-theme">
+        <div class="veille-theme-icon">⬡</div>
+        <div class="veille-theme-title">Réseaux &amp; Infrastructure</div>
+        <div class="veille-theme-desc">Protocoles réseau, SD-WAN, Zero Trust Network Access (ZTNA) et nouvelles normes de segmentation.</div>
+      </div>
+      <div class="veille-theme">
+        <div class="veille-theme-icon">◎</div>
+        <div class="veille-theme-title">Systèmes &amp; Open Source</div>
+        <div class="veille-theme-desc">Distributions Linux, mises à jour Windows Server, actualités des outils d'administration open source.</div>
+      </div>
+    </div>
+  </div>
+
+</div>
 
   <div class="divider"><div class="divider-line"></div><div class="divider-char">七</div><div class="divider-line"></div></div>
 
@@ -512,34 +653,7 @@
     <span>Limas, Auvergne-Rhône-Alpes</span>
   </footer>
 
-  <script>
-    const observer = new IntersectionObserver(entries => {
-      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-    }, { threshold: 0.08 });
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+<script src="js/main.js"></script>
 
-    const sections = document.querySelectorAll('[id]');
-    const navLinks = document.querySelectorAll('.nav-links a');
-    window.addEventListener('scroll', () => {
-      let current = '';
-      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 160) current = s.id; });
-      navLinks.forEach(a => {
-        a.classList.toggle('active', a.getAttribute('href') === '#' + current);
-      });
-    });
-
-    document.getElementById('contactForm').addEventListener('submit', function(e) {
-      e.preventDefault();
-      const nom     = document.getElementById('nom').value.trim();
-      const email   = document.getElementById('email').value.trim();
-      const sujet   = document.getElementById('sujet').value.trim();
-      const message = document.getElementById('message').value.trim();
-      const corps   = `Bonjour Arthur,\n\nNom : ${nom}\nEmail : ${email}\n\n${message}`;
-      const mailto  = `mailto:paitredaletarthur@gmail.com`
-        + `?subject=${encodeURIComponent(sujet)}`
-        + `&body=${encodeURIComponent(corps)}`;
-      window.location.href = mailto;
-    });
-  </script>
 </body>
 </html>
