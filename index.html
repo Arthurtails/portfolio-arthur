@@ -434,9 +434,6 @@
       <p>
         <strong>La veille technologique</strong> est un processus de surveillance continue de l'environnement technologique. Elle consiste à collecter, analyser et diffuser des informations sur les évolutions techniques, les nouvelles pratiques et les menaces émergentes dans son domaine d'activité.
       </p>
-      <p style="margin-top:.8rem">
-        Dans le domaine de l'informatique et des réseaux, elle est indispensable pour anticiper les changements, se tenir à jour sur les vulnérabilités et maintenir un niveau de compétence en adéquation avec les besoins du marché.
-      </p>
     </div>
   </div>
 
@@ -476,39 +473,56 @@
   </div>
 
   <!-- Comment faire une veille -->
-  <div class="veille-block">
-    <div class="veille-block-label">Comment faire une veille efficace ?</div>
-    <div class="veille-methode">
-      <div class="veille-etape">
-        <div class="veille-etape-icon">①</div>
-        <div>
-          <div class="veille-etape-title">Définir ses sources</div>
-          <div class="veille-etape-desc">Sélectionner des sources fiables et variées : sites officiels, blogs spécialisés, flux RSS, newsletters, communautés. Privilégier la qualité à la quantité.</div>
-        </div>
-      </div>
-      <div class="veille-etape">
-        <div class="veille-etape-icon">②</div>
-        <div>
-          <div class="veille-etape-title">Collecter régulièrement</div>
-          <div class="veille-etape-desc">Consacrer un temps fixe à la lecture (ex : 15 min par jour). Utiliser des agrégateurs et outils de curation pour centraliser les informations sans se disperser.</div>
-        </div>
-      </div>
-      <div class="veille-etape">
-        <div class="veille-etape-icon">③</div>
-        <div>
-          <div class="veille-etape-title">Analyser et filtrer</div>
-          <div class="veille-etape-desc">Trier les informations selon leur pertinence, fiabilité et applicabilité. Croiser plusieurs sources avant de valider une information technique.</div>
-        </div>
-      </div>
-      <div class="veille-etape">
-        <div class="veille-etape-icon">④</div>
-        <div>
-          <div class="veille-etape-title">Synthétiser et partager</div>
-          <div class="veille-etape-desc">Prendre des notes, résumer les points clés et partager les découvertes (portfolio, équipe, etc.). La veille n'a de valeur que si elle est exploitée.</div>
-        </div>
-      </div>
+<div class="veille-methode">
+  <div class="veille-etape">
+    <div class="veille-etape-icon">①</div>
+    <div>
+      <div class="veille-etape-title">Définir ses sources</div>
+      <ul class="veille-etape-list">
+        <li>Sélectionner des sources fiables et variées</li>
+        <li>Privilégier la qualité à la quantité</li>
+        <li>Mixer sources officielles, blogs et communautés</li>
+        <li>Mettre à jour sa liste régulièrement</li>
+      </ul>
     </div>
   </div>
+  <div class="veille-etape">
+    <div class="veille-etape-icon">②</div>
+    <div>
+      <div class="veille-etape-title">Collecter régulièrement</div>
+      <ul class="veille-etape-list">
+        <li>Consacrer un temps fixe chaque jour (15 min)</li>
+        <li>Utiliser un agrégateur RSS (Feedly)</li>
+        <li>Activer les alertes sur les sujets clés</li>
+        <li>Ne pas accumuler sans lire</li>
+      </ul>
+    </div>
+  </div>
+  <div class="veille-etape">
+    <div class="veille-etape-icon">③</div>
+    <div>
+      <div class="veille-etape-title">Analyser et filtrer</div>
+      <ul class="veille-etape-list">
+        <li>Trier selon la pertinence et la fiabilité</li>
+        <li>Croiser plusieurs sources avant de valider</li>
+        <li>Identifier ce qui s'applique à son contexte</li>
+        <li>Écarter les informations non vérifiées</li>
+      </ul>
+    </div>
+  </div>
+  <div class="veille-etape">
+    <div class="veille-etape-icon">④</div>
+    <div>
+      <div class="veille-etape-title">Synthétiser et partager</div>
+      <ul class="veille-etape-list">
+        <li>Prendre des notes avec NotebookLM</li>
+        <li>Résumer les points clés</li>
+        <li>Partager les découvertes (portfolio, équipe)</li>
+        <li>La veille n'a de valeur que si elle est exploitée</li>
+      </ul>
+    </div>
+  </div>
+</div>
 
   <!-- Outils utilisés -->
   <div class="veille-block">
@@ -571,34 +585,6 @@
 
     </div>
   </div>
-
-  <!-- Thèmes suivis -->
-  <div class="veille-block">
-    <div class="veille-block-label">Thèmes suivis</div>
-    <div class="veille-themes">
-      <div class="veille-theme">
-        <div class="veille-theme-icon">🛡</div>
-        <div class="veille-theme-title">Cybersécurité</div>
-        <div class="veille-theme-desc">Suivi des CVE critiques, nouvelles techniques d'attaque (MITRE ATT&CK), durcissement système et réseau.</div>
-      </div>
-      <div class="veille-theme">
-        <div class="veille-theme-icon">☁</div>
-        <div class="veille-theme-title">Cloud &amp; Virtualisation</div>
-        <div class="veille-theme-desc">Évolutions de VMware, montée en puissance de Proxmox, tendances cloud hybride et conteneurisation.</div>
-      </div>
-      <div class="veille-theme">
-        <div class="veille-theme-icon">⬡</div>
-        <div class="veille-theme-title">Réseaux &amp; Infrastructure</div>
-        <div class="veille-theme-desc">Protocoles réseau, SD-WAN, Zero Trust Network Access (ZTNA) et nouvelles normes de segmentation.</div>
-      </div>
-      <div class="veille-theme">
-        <div class="veille-theme-icon">◎</div>
-        <div class="veille-theme-title">Systèmes &amp; Open Source</div>
-        <div class="veille-theme-desc">Distributions Linux, mises à jour Windows Server, actualités des outils d'administration open source.</div>
-      </div>
-    </div>
-  </div>
-
 </div>
 
   <div class="divider"><div class="divider-line"></div><div class="divider-char">七</div><div class="divider-line"></div></div>

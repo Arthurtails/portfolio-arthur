@@ -678,6 +678,19 @@ h1 .last { color: var(--red); display: block; }
 }
 
 /* ── Méthode étapes ── */
+.veille-etape-list {
+  list-style: none;
+  display: flex; flex-direction: column; gap: .35rem;
+  margin-top: .5rem;
+}
+.veille-etape-list li {
+  color: var(--sub); font-size: .84rem;
+  padding-left: 1rem; position: relative; line-height: 1.5;
+}
+.veille-etape-list li::before {
+  content: '◆'; position: absolute; left: 0;
+  font-size: .3rem; color: var(--red); top: .45rem;
+}
 .veille-methode {
   display: grid; grid-template-columns: repeat(2, 1fr);
   gap: 1px; background: var(--border);
